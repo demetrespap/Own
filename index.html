@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<title> Way2Talk</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <!-- links gia tin bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="../admin/css/styles.css" rel="stylesheet">
+    <link href="../admin/css/footer.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="//getbootstrap.com/2.3.2/assets/js/bootstrap-modal.js"></script>
+     <link rel="icon" href="../logo.png" type="image/png" >
+        <link rel="stylesheet" href="../way2talk/css/style.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+img {margin-bottom: -7px}
+.w3-row-padding img {margin-bottom: 12px}
+.color{
+    background-color: #1a7599;
+    color:white;
+}
+            * {
+              box-sizing: border-box;
+            }
+            
+            body {
+              font-family: Arial, Helvetica, sans-serif;
+                  font-size: 18px;
+            }
+            
+            /* Float four columns side by side */
+            .column {
+              float: left;
+              width: 33%;
+              padding: 10px 10px;
+              
+            }
+            
+            /* Remove extra left and right margins, due to padding */
+            .row {margin: 0 -5px;}
+            
+            /* Clear floats after the columns */
+            .row:after {
+              content: "";
+              display: table;
+              clear: both;
+            }
+            
+            /* Responsive columns */
+            @media screen and (max-width: 600px) {
+              .column {
+                width: 100%;
+                display: block;
+                margin-bottom: 20px;
+              }
+            }
+            
+            /* Style the counter cards */
+            .card {
+              box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+              padding: 16px;
+              text-align: center;
+              background-color: #f1f1f1;
+            }
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <nav class="navbar navbar-expand-md pb-1">
+            <a class="navbar-brand rounded" href="#"><strong>Way2Talk</strong></a>
+            <div class="mr-auto"> 
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link rounded" href="Ypiresies.php">Υπηρεσίες</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link rounded" href="Logotherapeftes.php">Λογοθεραπευτές</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="ml-auto">
+                <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link rounded" href="index.php">Σύνδεση</a>
+                        </li>
+                </ul>
+            </div>
+        </nav>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#home" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Αρχική</a>
+  <a href="#services" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Υπηρεσίες</a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Λογοθεραπευτές</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Επικοινωνίστε</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:100%;margin-top:46px;" >
+<div id="home">
+  <!-- Automatic Slideshow Images -->
+ 
+  <div class="mySlides w3-display-container w3-center">
+    <img src="img/4.jpg" style="width:70%;height:700px;">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small"></div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="img/5.jpg" style="width:70%;height:700px;">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small"></p>    
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="img/6.jpg" style="width:70%;height:700px;">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small"></div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="img/7.jpg" style="width:70%;height:700px;">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small"></div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="img/8.jpg" style="width:70%;height:700px;">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small"></div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="img/9.jpg" style="width:70%;height:700px;">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small"></div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="img/10.jpg" style="width:70%;height:700px;">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small"></div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="img/11.jpg" style="width:70%;height:700px;">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small"></p>    
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="img/12.jpg" style="width:70%;height:700px;">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small"></div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="img/13.jpg" style="width:70%;height:700px;">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small"></div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="img/14.jpg" style="width:70%;height:700px;">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small"></div>
+  </div>
+</div>
+  <!-- The Band Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="services">
+    <h2 class="w3-wide"><b>Λογοθεραπεία</b></h2>
+    <p class="w3-opacity"><i>Τι είναι;</i></p>
+    <p class="w3-justify">Είναι ο κλάδος υγείας που στοχεύει στην πρόληψη, την αξιολόγηση, τη διάγνωση, τη θεραπεία και την επιστημονική μελέτη των διαταραχών της επικοινωνίας, του λόγου, της ομιλίας και της κατάποσης σε παιδιά και ενήλικες. </p>
+    </div>
+    <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="services">
+    <h2 class="w3-wide"><b>Υπηρεσίες</b></h2>
+    <p class="w3-opacity"><i>Οι Λογοθεραπευτές παρέχουν υπηρεσίες σε άτομα με:</i></p>
+    <div class="w3-row" id="myGrid" style="margin-bottom:128px">
+          <div class="w3-third w3-row-padding">
+            <img src="img/a.jpg" style="width:100%">
+            <img src="img/j.jpg" style="width:100%">
+            <img src="img/d.jpg" style="width:100%">
+            <img src="img/f.jpg" style="width:100%">
+            <img src="img/r.jpg" style="width:100%">
+            
+            
+          </div>
+        
+          <div class="w3-third w3-row-padding">
+            <img src="img/b.jpg" style="width:100%">
+            <img src="img/e.jpg" style="width:100%">
+            <img src="img/n.jpg" style="width:100%">
+            <img src="img/i.jpg" style="width:100%">
+            <img src="img/k.jpg" style="width:100%">
+          </div>
+        
+          <div class="w3-third w3-row-padding">
+            <img src="img/c.jpg" style="width:100%">
+            <img src="img/g.jpg" style="width:100%">
+            <img src="img/h.jpg" style="width:100%">
+            <img src="img/l.jpg" style="width:100%">
+            <img src="img/x.jpg" style="width:100%">
+          </div>
+        </div>
+</div>
+  
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="about">
+    <h2 class="w3-wide"><b>Λογοθεραπευτές</b></h2>
+        
+        
+        <div class="w3-row w3-padding-32">
+                    <h3 class="w3-wide"><b>Έλενα Δημητρίου,Λογοπαθολόγος/ Λογοθεραπεύτρια, BSc</b></h3>
+                    <p>Email: way2talk.slp@gmail.com</p>
+                    <p>Τηλ: +357 99 824 213</p>
+
+    </div>
+  </div>
+</div>
+
+  <!-- The Contact Section -->
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px;" id="contact">
+    <h2 class="w3-wide w3-center"><b>Επικοινωνίστε</b></h2>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-twothird w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker" style="width:30px"></i>Αισώπου 4Α, Άγιος Νικόλαος, 3100 Λεμεσός<br>
+        <i class="fa fa-phone" style="width:30px"></i>Τηλέφωνο: +357 99 824 213<br>
+        <i class="fa fa-envelope" style="width:30px"> </i>Εmail: way2talk.slp@gmail.com<br>
+        <i class="fa fa-print" style="width:30px"></i>Fax: +357 25 723 734<br>
+      </div>
+      <div class="w3-third ">
+        <a href="www.facebook.com/way2talk" ><i class='fab fa-facebook-f' style='font-size:50px'></i></a>
+        <a href="https://www.instagram.com/way2talk/"><i class="fab fa-instagram"style="font-size:50px;margin-left: 30px;"></i></a>
+      </div>
+    </div>
+  </div>
+  
+<!-- End Page Content -->
+</div>
+
+<!-- Image of location/map an thelei na valoume to google map screenshot-->
+<img src="img/map.jpg" class="w3-image w3-greyscale-min" style="width:100%">
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-32 w3-center  w3-light-grey ">
+  <div class="w3-opacity">
+    Το σύστημα αναπτύχθηκε από τους Χατζηγιάννη Ουρανία, Δημητρίου Ραφαέλλος, Παπαδόπουλος Δημήτρης, Γρηγορίου Χαράλαμπος, Ανδρέου Βασίλης<br>
+    τριτοετείς φοιτητές του τμήματος Ηλεκτρολόγων Μηχανικών και Μηχανικών Ηλεκτρονικών Υπολογιστών και Πληροφορικής του Τεχνολογικού Πανεπιστημίου Κύπρου, υπό την επίβλεψη του Καθηγητή Ανδρέα Σ. Ανδρέου στα πλαίσια του μαθήματος “Εργασία Τεχνολογίας Λογισμικού και Επαγγελματική Πρακτική” του πτυχίου Μηχανικών Ηλεκτρονικών Υπολογιστών και Πληροφορικής.
+     <br>Λεμεσός, Μάιος 2020
+     <br>Copyright © Cyprus University of Technology  
+     </p></div>
+     <img class="cut" src="cut.png" style="width:130px">
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 3000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+</script>
+
+</body>
+</html>
